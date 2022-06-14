@@ -80,8 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Work_25\GranicaGUI\GranicaGUI\OpenCV\include;$(OPENCV_DIR)\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Work_25\GranicaGUI\GranicaGUI\OpenCV\x64\lib;$(OPENCV_DIR)\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(OPENCV_DIR)\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_DIR)\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
